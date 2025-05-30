@@ -16,7 +16,6 @@ import java.util.List;
 @Slf4j
 public class ProductService {
 
-    @Autowired
     private final ProductRepository productRepository;
 
     public void createProduct(ProductRequest productRequest) {

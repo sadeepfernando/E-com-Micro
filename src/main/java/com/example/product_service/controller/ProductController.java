@@ -16,7 +16,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ProductController {
 
-    @Autowired
     private final ProductService productService;
 
     @PostMapping
